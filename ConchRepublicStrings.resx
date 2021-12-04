@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Attribution0" xml:space="preserve">
+    <value>Airstream,Inc.</value>
+  </data>
+  <data name="Attribution1" xml:space="preserve">
+    <value>Amber Kipp</value>
+  </data>
+  <data name="Attribution10" xml:space="preserve">
+    <value>Florida Guidebook</value>
+  </data>
+  <data name="Attribution11" xml:space="preserve">
+    <value>Jametlene Reskp</value>
+  </data>
+  <data name="Attribution12" xml:space="preserve">
+    <value>Johnathan Wheeler</value>
+  </data>
+  <data name="Attribution13" xml:space="preserve">
+    <value>Keith Luke</value>
+  </data>
+  <data name="Attribution14" xml:space="preserve">
+    <value>Mattew Mcbrayer</value>
+  </data>
+  <data name="Attribution15" xml:space="preserve">
+    <value>Noel Nichols</value>
+  </data>
+  <data name="Attribution16" xml:space="preserve">
+    <value>Peter Pruharski</value>
+  </data>
+  <data name="Attribution17" xml:space="preserve">
+    <value>R.D Smith</value>
+  </data>
+  <data name="Attribution2" xml:space="preserve">
+    <value>Amber Wineland</value>
+  </data>
+  <data name="Attribution3" xml:space="preserve">
+    <value>Betty Subrizi</value>
+  </data>
+  <data name="Attribution4" xml:space="preserve">
+    <value>Braden Egli</value>
+  </data>
+  <data name="Attribution5" xml:space="preserve">
+    <value>Catherine</value>
+  </data>
+  <data name="Attribution6" xml:space="preserve">
+    <value>Charles Jackson</value>
+  </data>
+  <data name="Attribution7" xml:space="preserve">
+    <value>Domenick Dibenedetto-Reis</value>
+  </data>
+  <data name="Attribution8" xml:space="preserve">
+    <value>Florida Guidebook</value>
+  </data>
+  <data name="Attribution9" xml:space="preserve">
+    <value>Florida Guidebook</value>
+  </data>
+  <data name="ConchRepublicURL" xml:space="preserve">
+    <value>https://nz9i1znm32.execute-api.us-east-1.amazonaws.com/dev/getdata/</value>
+  </data>
+  <data name="GeneralImage0" xml:space="preserve">
+    <value>airstream-inc-e4nZLI9Wbpg-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage1" xml:space="preserve">
+    <value>amber-kipp-2kcRexKWhjU-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage10" xml:space="preserve">
+    <value>florida-guidebook-com-xHe0i1Kqtog-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage11" xml:space="preserve">
+    <value>jametlene-reskp-n6UGb9X3YaI-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage12" xml:space="preserve">
+    <value>jonathan-wheeler-TkGZFU2t9gc-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage13" xml:space="preserve">
+    <value>keith-luke-sPU2kzPIf28-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage14" xml:space="preserve">
+    <value>matthew-mcbrayer-DxNMHyoY1tk-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage15" xml:space="preserve">
+    <value>noel-nichols-yOMBnHVpxdg-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage16" xml:space="preserve">
+    <value>peter-pryharski-JMcoEjrm3Ro-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage17" xml:space="preserve">
+    <value>r-d-smith-M5fmqx88VcY-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage2" xml:space="preserve">
+    <value>amber-wineland-UERGLcd8Qug-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage3" xml:space="preserve">
+    <value>betty-subrizi-rmpMK5rHHzU-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage4" xml:space="preserve">
+    <value>braden-egli-z5ficbI0QV0-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage5" xml:space="preserve">
+    <value>catherine-nShwpLsYhpU-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage6" xml:space="preserve">
+    <value>charles-jackson-jgQ_Luo-iRg-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage7" xml:space="preserve">
+    <value>domenick-dibenedetto-reis-_N1r8Sc4mAg-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage8" xml:space="preserve">
+    <value>florida-guidebook-com-2Bdln1-BtUA-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImage9" xml:space="preserve">
+    <value>florida-guidebook-com-HkAbnEf0Jwc-unsplash.jpg</value>
+  </data>
+  <data name="GeneralImageCount" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="IslamoradaBrochureImage" xml:space="preserve">
+    <value>islamorada-keith-luke-cropped.jpg</value>
+  </data>
+  <data name="KeyLargoBrochureImage" xml:space="preserve">
+    <value>key-largo-maja-novak-cropped.jpg</value>
+  </data>
+  <data name="KeyWestBrochureImage" xml:space="preserve">
+    <value>keywest-xHe0i1Kqtog-cropped.jpg</value>
+  </data>
+  <data name="LowerKeysBrochureImage" xml:space="preserve">
+    <value>lower-keys-tobias-negele-cropped.jpg</value>
+  </data>
+  <data name="MarathonBrochureImage" xml:space="preserve">
+    <value>marathon-cropped.jpg</value>
+  </data>
+</root>
