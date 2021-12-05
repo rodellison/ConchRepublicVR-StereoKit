@@ -195,11 +195,6 @@
     </AndroidAsset>
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="..\..\Assets\StereoKitWide.png">
-      <Link>Assets\StereoKitWide.png</Link>
-    </AndroidAsset>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidAsset Include="..\..\Assets\001.png">
       <Link>Assets\001.png</Link>
     </AndroidAsset>

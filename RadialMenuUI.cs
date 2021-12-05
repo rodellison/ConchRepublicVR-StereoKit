@@ -92,7 +92,7 @@ namespace VRConchRepublic
                         UI.Label("Fireworks sprites from OpenGameArt");
                         UI.Label("Fireworks sound from www.fesliyanstudios.com");
                         UI.Label("Steel drum music from freesound.org");
-                        UI.Label("Ship, Palm and Banana tree models free from CGTrader");
+                        UI.Label("Ship, Palms, Chairs free models from CGTrader");
                         UI.HSeparator();
                         if (UI.Button("OK"))
                             thisRadialMenuSelection = RadialMenuSelectionType.About;

@@ -19,7 +19,7 @@ namespace VRConchRepublic
         private readonly float timeToLerpReturnBrochure = 2f;
         private readonly float waitTimeAfterRelease = 5f;
 
-        private readonly Bounds brochureBounds = new Bounds(Vec3.Zero, new Vec3(0.25f, 0.25f, 0.05f));
+        private readonly Bounds brochureBounds = new Bounds(Vec3.Zero, new Vec3(0.25f, 0.32f, 0.05f));
         private readonly Pose originalkeylargoBrochurePose = new Pose(V.XYZ(-0.75f, 1.08f, 0.08f), new Quat(0.50f, -0.5f, 0.50f, 0.50f));
         private readonly Pose originalislamoradaBrochurePose = new Pose(V.XYZ(-0.65f, 1.08f, -0.25f), new Quat(0.36f, -0.60f, 0.60f, 0.36f));
         private readonly Pose originalmarathonBrochurePose = new Pose(V.XYZ(-0.02f, 0.89f, -0.6f), new Quat(0.36f, -0.60f, 0.60f, 0.36f));
