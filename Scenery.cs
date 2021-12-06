@@ -43,6 +43,7 @@ namespace VRConchRepublic
         double range;
         double range2;
         public bool Enabled => false;
+
         public bool Initialize()
         {
             palmTreeModels = new Model[numPalmTrees];
@@ -58,8 +59,6 @@ namespace VRConchRepublic
 
             // Set up some nice lighting, and a background.
             Renderer.SkyTex = Tex.FromCubemapEquirectangular("001.png", out SphericalHarmonics lighting);
-            Renderer.SkyTex.AddressMode = TexAddress.Clamp;
-            //A bit higher value for png, instead of .hdr
             lighting.Brightness(15f);
             Renderer.SkyLight = lighting;
 
@@ -68,9 +67,9 @@ namespace VRConchRepublic
             beachModel = Model.FromFile("Beach.glb");
             BananaTreeModel = Model.FromFile("Banana_Plant_01.glb");
             PalmTreeModel = Model.FromFile("PalmTree2.glb");
-            beachTableModel = Model.FromFile("BeachTable.glb");
             BambooBeachChairModel = Model.FromFile("beach_chair.glb");
             BambooBeachChairModel2 = BambooBeachChairModel.Copy();
+            beachTableModel = Model.FromFile("BeachTable.glb");
 
             for (int i = 0; i < numPalmTrees; i++)
             {
